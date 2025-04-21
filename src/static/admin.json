@@ -1,3 +1,11 @@
 {
-    
+  "appPassword": "12345678",
+  "categories": [
+    "General Science",
+    "World Geography",
+    "Sports",
+    "Computer Basics",
+    "Movies and Entertainment"
+  ],
+  "questionsPerTopic": 10
 }
