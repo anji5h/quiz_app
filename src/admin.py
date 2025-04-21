@@ -5,7 +5,7 @@ from schemas import QuizConfig, Quiz, Question, Topic
 
 CONFIG_DIR = "src/static"
 ADMIN_FILE_PATH = os.path.join(CONFIG_DIR, "admin.json")
-QUIZ_FILE_PATH = os.path.join(CONFIG_DIR, "questions.json")
+QUIZ_FILE_PATH = os.path.join(CONFIG_DIR, "quiz.json")
 
 
 def print_topics(topics: list[str]):
@@ -18,8 +18,8 @@ def add_question(
     ques_per_topic: int,
     topic_name: str,
 ):
-    with open(QUIZ_FILE_PATH, "r") as file:
-        raw_data = file.read()
+    with open(QUIZ_FILE_PATH, "r") as f:
+        raw_data = f.read()
         quiz = Quiz.model_validate_json(raw_data)
 
     if topic_name not in quiz.root:
@@ -49,6 +49,21 @@ def add_question(
         json.dump(quiz.model_dump(), f, indent=4)
 
 
+def delete_question(topic_name: str, ques_id: str):
+    with open(QUIZ_FILE_PATH, "r") as file:
+        raw_data = file.read()
+        quiz = Quiz.model_validate_json(raw_data)
+
+    if topic_name not in quiz.root:
+        return
+
+    topic = quiz.root[topic_name]
+    removed = topic.root.pop(ques_id, None)
+
+    if removed:
+        with open(QUIZ_FILE_PATH, "w") as f:
+            json.dump(quiz.model_dump(), f, indent=4)
+
 
 def main():
     try:
@@ -73,13 +88,18 @@ def main():
                 case 1:
                     print_topics(config.categories)
                     topic_no = int(input("Enter the topic number: ").strip())
-                    topic = config.categories[topic_no - 1]
-                    add_question(ques_per_topic=config.questionsPerTopic, topic=topic)
+                    topic_name = config.categories[topic_no - 1]
+                    add_question(
+                        ques_per_topic=config.questionsPerTopic, topic_name=topic_name
+                    )
                 case 2:
                     print_topics(config.categories)
                     topic_no = int(input("Enter the topic number: ").strip())
-                    topic = config.categories[topic_no - 1]
+                    topic_name = config.categories[topic_no - 1]
+                    ques_id = input("Enter question id to delete: ")
+                    delete_question(topic_name=topic_name, ques_id=ques_id)
                 case _:
+                    print("Exiting the application......")
                     break
 
     except Exception as e:
