@@ -9,7 +9,7 @@ class QuizConfig(BaseModel):
     questionsPerTopic: int
 
 
-# schema for questions.json
+# schema for quiz.json
 class Question(BaseModel):
     question: str
     a: str
