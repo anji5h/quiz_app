@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the value of pi (π) to two decimal places?",
+    "options": ["3.10", "3.14", "3.16", "3.20"],
+    "answer": "3.14"
+  },
+  {
+    "question": "What is the formula for the area of a rectangle?",
+    "options": ["length + width", "length - width", "length × width", "length ÷ width"],
+    "answer": "length × width"
+  },
+  {
+    "question": "Solve for x: 2x + 5 = 11",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "What type of triangle has all three sides of equal length?",
+    "options": ["Scalene", "Isosceles", "Equilateral", "Right"],
+    "answer": "Equilateral"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": ["10", "12", "14", "16"],
+    "answer": "12"
+  },
+  {
+    "question": "What is 15% of 100?",
+    "options": ["5", "10", "15", "20"],
+    "answer": "15"
+  },
+  {
+    "question": "What is the name for an angle that is greater than 90 degrees but less than 180 degrees?",
+    "options": ["Acute", "Right", "Obtuse", "Reflex"],
+    "answer": "Obtuse"
+  },
+  {
+    "question": "What is the next number in the sequence: 2, 4, 6, 8, ?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "10"
+  },
+  {
+    "question": "What is the value of 3 cubed (3³)?",
+    "options": ["9", "18", "27", "30"],
+    "answer": "27"
+  },
+  {
+    "question": "What is the formula for the circumference of a circle?",
+    "options": ["πr²", "2πr", "πd²", "πr"],
+    "answer": "2πr"
+  }
+]

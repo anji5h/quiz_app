@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Computer Personal Unit", "Central Power Unit", "Common Processing Utility"],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "question": "What is the primary function of RAM in a computer?",
+    "options": ["Long-term data storage", "Permanent storage of the operating system", "Temporary storage for active data", "Graphics processing"],
+    "answer": "Temporary storage for active data"
+  },
+  {
+    "question": "What is the binary representation of the decimal number 5?",
+    "options": ["100", "101", "110", "011"],
+    "answer": "101"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": ["Hyper Text Markup Language", "Highly Technical Machine Language", "Hyperlink and Text Management Language", "Home Tool Markup Language"],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Which programming language is often used for web development and is known for its dynamic typing?",
+    "options": ["Java", "C++", "Python", "JavaScript"],
+    "answer": "JavaScript"
+  },
+  {
+    "question": "What is an algorithm?",
+    "options": ["A type of computer hardware", "A set of well-defined instructions for solving a problem", "A high-level programming language", "A unit of digital information"],
+    "answer": "A set of well-defined instructions for solving a problem"
+  },
+  {
+    "question": "What is a database?",
+    "options": ["A collection of web pages", "A structured set of data held in a computer", "A type of computer virus", "A graphical user interface"],
+    "answer": "A structured set of data held in a computer"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": ["Uniform Resource Locator", "Universal Retrieval Link", "Ultimate Reference Location", "Unified Router Logic"],
+    "answer": "Uniform Resource Locator"
+  },
+  {
+    "question": "What is the purpose of a firewall in computer security?",
+    "options": ["To encrypt data", "To prevent unauthorized access to a network", "To scan for viruses", "To manage network connections"],
+    "answer": "To prevent unauthorized access to a network"
+  },
+  {
+    "question": "What is cloud computing?",
+    "options": ["Storing data on physical hard drives", "Running software directly on a personal computer", "Delivering computing services over the internet", "Using only open-source software"],
+    "answer": "Delivering computing services over the internet"
+  }
+]

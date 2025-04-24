@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Who painted the 'Mona Lisa'?",
+    "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "What art movement is characterized by dream-like and illogical imagery?",
+    "options": ["Impressionism", "Surrealism", "Cubism", "Renaissance"],
+    "answer": "Surrealism"
+  },
+  {
+    "question": "Who sculpted the 'David'?",
+    "options": ["Michelangelo", "Donatello", "Raphael", "Bernini"],
+    "answer": "Michelangelo"
+  },
+  {
+    "question": "What is a fresco?",
+    "options": ["A painting on canvas", "A sculpture made of bronze", "A painting done on wet plaster", "A type of pottery"],
+    "answer": "A painting done on wet plaster"
+  },
+  {
+    "question": "Which artist is famous for his 'Starry Night' painting?",
+    "options": ["Pablo Picasso", "Vincent van Gogh", "Salvador Dalí", "Claude Monet"],
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "question": "What is the primary color that cannot be created by mixing other colors?",
+    "options": ["Green", "Orange", "Purple", "Blue"],
+    "answer": "Blue"
+  },
+  {
+    "question": "What architectural style is known for its pointed arches and stained glass windows?",
+    "options": ["Baroque", "Gothic", "Romanesque", "Neoclassical"],
+    "answer": "Gothic"
+  },
+  {
+    "question": "Who composed the 'Ode to Joy'?",
+    "options": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Johann Sebastian Bach", "Franz Schubert"],
+    "answer": "Ludwig van Beethoven"
+  },
+  {
+    "question": "What is a still life in art?",
+    "options": ["A portrait of a living person", "A landscape painting", "An artwork depicting inanimate objects", "A historical scene"],
+    "answer": "An artwork depicting inanimate objects"
+  },
+  {
+    "question": "What is the technique of creating an image by assembling small pieces of colored glass, stone, or other materials?",
+    "options": ["Fresco", "Mosaic", "Tapestry", "Calligraphy"],
+    "answer": "Mosaic"
+  }
+]

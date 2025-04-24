@@ -1,0 +1,52 @@
+[
+    {
+      "question": "In what year did World War I begin?",
+      "options": ["1914", "1918", "1939", "1945"],
+      "answer": "1914"
+    },
+    {
+      "question": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+      "answer": "George Washington"
+    },
+    {
+      "question": "What ancient civilization built the Great Pyramid of Giza?",
+      "options": ["Roman", "Greek", "Egyptian", "Mesopotamian"],
+      "answer": "Egyptian"
+    },
+    {
+      "question": "Which English monarch signed the Magna Carta in 1215?",
+      "options": ["King John", "King Henry VIII", "Queen Elizabeth I", "King Richard I"],
+      "answer": "King John"
+    },
+    {
+      "question": "The Renaissance was a period of great flourishing in which area?",
+      "options": ["Science", "Art and Literature", "Politics", "Exploration"],
+      "answer": "Art and Literature"
+    },
+    {
+      "question": "Who is credited with developing the theory of relativity?",
+      "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Stephen Hawking"],
+      "answer": "Albert Einstein"
+    },
+    {
+      "question": "What event is considered the start of the French Revolution?",
+      "options": ["The storming of the Bastille", "The Reign of Terror", "The Tennis Court Oath", "The execution of Louis XVI"],
+      "answer": "The storming of the Bastille"
+    },
+    {
+      "question": "Which explorer is famous for his voyages to the Americas in 1492?",
+      "options": ["Ferdinand Magellan", "Vasco da Gama", "Christopher Columbus", "James Cook"],
+      "answer": "Christopher Columbus"
+    },
+    {
+      "question": "What was the name of the trade route connecting the East and West, facilitating the exchange of goods like silk and spices?",
+      "options": ["The Spice Route", "The Silk Road", "The Gold Road", "The Tea Trail"],
+      "answer": "The Silk Road"
+    },
+    {
+      "question": "In what year did the Soviet Union collapse?",
+      "options": ["1985", "1991", "2001", "1979"],
+      "answer": "1991"
+    }
+  ]

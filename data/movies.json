@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Who directed the movie 'Pulp Fiction'?",
+    "options": ["Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "Christopher Nolan"],
+    "answer": "Quentin Tarantino"
+  },
+  {
+    "question": "Which film won the Academy Award for Best Picture in 2020?",
+    "options": ["Parasite", "1917", "Once Upon a Time in Hollywood", "Joker"],
+    "answer": "Parasite"
+  },
+  {
+    "question": "Who played the character of James Bond in the first official Bond film, 'Dr. No'?",
+    "options": ["Sean Connery", "Roger Moore", "George Lazenby", "Timothy Dalton"],
+    "answer": "Sean Connery"
+  },
+  {
+    "question": "What is the name of the fictional African country in the movie 'Black Panther'?",
+    "options": ["Wakanda", "Zamunda", "Genovia", "Naboo"],
+    "answer": "Wakanda"
+  },
+  {
+    "question": "Which animated film features a lion cub named Simba?",
+    "options": ["Toy Story", "The Little Mermaid", "The Lion King", "Aladdin"],
+    "answer": "The Lion King"
+  },
+  {
+    "question": "Who directed the 'Lord of the Rings' trilogy?",
+    "options": ["Peter Jackson", "George Lucas", "James Cameron", "Ridley Scott"],
+    "answer": "Peter Jackson"
+  },
+  {
+    "question": "What year was the first 'Star Wars' movie released?",
+    "options": ["1977", "1980", "1983", "1974"],
+    "answer": "1977"
+  },
+  {
+    "question": "Who played the role of Jack Dawson in the movie 'Titanic'?",
+    "options": ["Brad Pitt", "Leonardo DiCaprio", "Matt Damon", "Christian Bale"],
+    "answer": "Leonardo DiCaprio"
+  },
+  {
+    "question": "What is the name of the spaceship in the 'Alien' film franchise?",
+    "options": ["Serenity", "Millennium Falcon", "Nostromo", "Enterprise"],
+    "answer": "Nostromo"
+  },
+  {
+    "question": "Which movie features a character named Forrest Gump?",
+    "options": ["The Shawshank Redemption", "Pulp Fiction", "Forrest Gump", "Goodfellas"],
+    "answer": "Forrest Gump"
+  }
+]

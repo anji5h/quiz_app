@@ -1,0 +1,52 @@
+[
+  {
+    "question": "In which sport would you find a 'home run'?",
+    "options": ["Soccer", "Basketball", "Baseball", "Tennis"],
+    "answer": "Baseball"
+  },
+  {
+    "question": "How many players are there in a standard basketball team on the court?",
+    "options": ["5", "7", "9", "11"],
+    "answer": "5"
+  },
+  {
+    "question": "What is the highest score possible in a single frame of bowling?",
+    "options": ["10", "20", "30", "12"],
+    "answer": "30"
+  },
+  {
+    "question": "Which country has won the most FIFA World Cup titles?",
+    "options": ["Germany", "Italy", "Brazil", "Argentina"],
+    "answer": "Brazil"
+  },
+  {
+    "question": "In tennis, what is a score of zero points called?",
+    "options": ["Love", "Deuce", "Ace", "Advantage"],
+    "answer": "Love"
+  },
+  {
+    "question": "What is the name of the event consisting of multiple athletic contests held every four years?",
+    "options": ["World Series", "Super Bowl", "Olympic Games", "Champions League"],
+    "answer": "Olympic Games"
+  },
+  {
+    "question": "In golf, what is one stroke under par called?",
+    "options": ["Birdie", "Bogey", "Eagle", "Albatross"],
+    "answer": "Birdie"
+  },
+  {
+    "question": "How many players are there on a standard volleyball team on the court?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "6"
+  },
+  {
+    "question": "What is the term for a score of three points in basketball?",
+    "options": ["Field goal", "Free throw", "Three-pointer", "Slam dunk"],
+    "answer": "Three-pointer"
+  },
+  {
+    "question": "Which sport is played on ice with stones and brooms?",
+    "options": ["Hockey", "Curling", "Figure Skating", "Speed Skating"],
+    "answer": "Curling"
+  }
+]

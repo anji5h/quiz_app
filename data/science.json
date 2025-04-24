@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": ["O2", "H2O", "CO2", "HO"],
+    "answer": "H2O"
+  },
+  {
+    "question": "What is the basic unit of life?",
+    "options": ["Atom", "Molecule", "Cell", "Organ"],
+    "answer": "Cell"
+  },
+  {
+    "question": "What force keeps planets in orbit around the Sun?",
+    "options": ["Electromagnetism", "Gravity", "Strong Nuclear Force", "Weak Nuclear Force"],
+    "answer": "Gravity"
+  },
+  {
+    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
+    "answer": "Nitrogen"
+  },
+  {
+    "question": "What is the process by which plants convert light energy into chemical energy?",
+    "options": ["Respiration", "Fermentation", "Photosynthesis", "Transpiration"],
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "What is the smallest particle of an element that retains the chemical properties of that element?",
+    "options": ["Proton", "Neutron", "Electron", "Atom"],
+    "answer": "Atom"
+  },
+  {
+    "question": "Which of the following is a conductor of electricity?",
+    "options": ["Rubber", "Glass", "Copper", "Plastic"],
+    "answer": "Copper"
+  },
+  {
+    "question": "What is the scientific study of living organisms?",
+    "options": ["Geology", "Astronomy", "Biology", "Chemistry"],
+    "answer": "Biology"
+  },
+  {
+    "question": "What is the state of matter that has a definite volume but no definite shape?",
+    "options": ["Solid", "Liquid", "Gas", "Plasma"],
+    "answer": "Liquid"
+  }
+]
