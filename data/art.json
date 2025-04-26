@@ -1,0 +1,82 @@
+{
+  "71c85657-28c6-429d-ab1e-6035839434a9": {
+    "question": "Who painted the 'Mona Lisa'?",
+    "a": "Vincent van Gogh",
+    "b": "Leonardo da Vinci",
+    "c": "Pablo Picasso",
+    "d": "Claude Monet",
+    "answer": "b"
+  },
+  "154db989-9e0a-4231-8719-570b548c837a": {
+    "question": "What art movement is characterized by dream-like and illogical imagery?",
+    "a": "Impressionism",
+    "b": "Surrealism",
+    "c": "Cubism",
+    "d": "Renaissance",
+    "answer": "b"
+  },
+  "084f8e1e-00e5-4b27-a467-877f599ab329": {
+    "question": "Who sculpted the 'David'?",
+    "a": "Michelangelo",
+    "b": "Donatello",
+    "c": "Raphael",
+    "d": "Bernini",
+    "answer": "a"
+  },
+  "7e2faade-c69d-4d67-9e2b-253869000b62": {
+    "question": "What is a fresco?",
+    "a": "A painting on canvas",
+    "b": "A sculpture made of bronze",
+    "c": "A painting done on wet plaster",
+    "d": "A type of pottery",
+    "answer": "c"
+  },
+  "ff4a532d-c9c0-45f3-b7a5-a4ae294e9827": {
+    "question": "Which artist is famous for his 'Starry Night' painting?",
+    "a": "Pablo Picasso",
+    "b": "Vincent van Gogh",
+    "c": "Salvador Dalí",
+    "d": "Claude Monet",
+    "answer": "b"
+  },
+  "bb3c88b4-ac7d-400c-9ab8-2226bfe71546": {
+    "question": "What is the primary color that cannot be created by mixing other colors?",
+    "a": "Green",
+    "b": "Orange",
+    "c": "Purple",
+    "d": "Blue",
+    "answer": "d"
+  },
+  "6391ac8a-ca4c-4a11-91ea-b5d647bbf583": {
+    "question": "What architectural style is known for its pointed arches and stained glass windows?",
+    "a": "Baroque",
+    "b": "Gothic",
+    "c": "Romanesque",
+    "d": "Neoclassical",
+    "answer": "b"
+  },
+  "cd2e7f16-64d5-4106-9d28-f70f7a9cf21a": {
+    "question": "Who composed the 'Ode to Joy'?",
+    "a": "Wolfgang Amadeus Mozart",
+    "b": "Ludwig van Beethoven",
+    "c": "Johann Sebastian Bach",
+    "d": "Franz Schubert",
+    "answer": "b"
+  },
+  "f3665b1d-97bf-4e01-8fc7-97a73119b225": {
+    "question": "What is a still life in art?",
+    "a": "A portrait of a living person",
+    "b": "A landscape painting",
+    "c": "An artwork depicting inanimate objects",
+    "d": "A historical scene",
+    "answer": "c"
+  },
+  "8ce4e939-10bd-4380-920e-1b46a0c8501f": {
+    "question": "What is the technique of creating an image by assembling small pieces of colored glass, stone, or other materials?",
+    "a": "Fresco",
+    "b": "Mosaic",
+    "c": "Tapestry",
+    "d": "Calligraphy",
+    "answer": "b"
+  }
+}

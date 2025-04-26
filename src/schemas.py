@@ -1,11 +1,11 @@
-from pydantic import BaseModel, RootModel, field_validator
+from pydantic import BaseModel, RootModel
 from typing import List, Dict
 
 
 # schema for admin.json
 class QuizConfig(BaseModel):
     appPassword: str
-    categories: List[str]
+    topics: List[str]
     questionsPerTopic: int
 
 
@@ -19,9 +19,5 @@ class Question(BaseModel):
     answer: str
 
 
-class Topic(RootModel[Dict[str, Question]]):
-    pass
-
-
-class Quiz(RootModel[Dict[str, Topic]]):
+class Quiz(RootModel[Dict[str, Question]]):
     pass

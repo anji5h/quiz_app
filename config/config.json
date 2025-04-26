@@ -1,0 +1,15 @@
+{
+  "appPassword": "12345678",
+  "topics": [
+    "art",
+    "computer_science",
+    "geography",
+    "history",
+    "literature",
+    "mathematics",
+    "movies",
+    "science",
+    "sports"
+  ],
+  "questionsPerTopic": 10
+}
