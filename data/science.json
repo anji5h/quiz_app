@@ -1,0 +1,102 @@
+{
+  "fdff1c31-779f-43a6-9393-7932499e8843": {
+    "question": "What planet is known as the Red Planet?",
+    "options": {
+      "1": "Earth",
+      "2": "Mars",
+      "3": "Jupiter",
+      "4": "Saturn"
+    },
+    "answer": "2"
+  },
+  "f56174b9-28b5-450a-801a-7bcb2097f3cf": {
+    "question": "What is the chemical symbol for water?",
+    "options": {
+      "1": "O2",
+      "2": "H2O",
+      "3": "CO2",
+      "4": "HO"
+    },
+    "answer": "2"
+  },
+  "f41b560e-e1cb-4bb3-b432-57cfe37b3d0e": {
+    "question": "What is the basic unit of life?",
+    "options": {
+      "1": "Atom",
+      "2": "Molecule",
+      "3": "Cell",
+      "4": "Organ"
+    },
+    "answer": "3"
+  },
+  "5d082b0e-775e-49b3-99fa-8d4d66c666c9": {
+    "question": "What force keeps planets in orbit around the Sun?",
+    "options": {
+      "1": "Electromagnetism",
+      "2": "Gravity",
+      "3": "Strong Nuclear Force",
+      "4": "Weak Nuclear Force"
+    },
+    "answer": "2"
+  },
+  "a2a84c1e-3b0c-4109-a859-51c54784c2f4": {
+    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "options": {
+      "1": "Oxygen",
+      "2": "Carbon Dioxide",
+      "3": "Nitrogen",
+      "4": "Argon"
+    },
+    "answer": "3"
+  },
+  "8660cf12-d13b-4c17-95b0-668dfef4e5c4": {
+    "question": "What is the process by which plants convert light energy into chemical energy?",
+    "options": {
+      "1": "Respiration",
+      "2": "Fermentation",
+      "3": "Photosynthesis",
+      "4": "Transpiration"
+    },
+    "answer": "3"
+  },
+  "12968232-3323-49fd-a722-eb25ab4f5aa8": {
+    "question": "What is the smallest particle of an element that retains the chemical properties of that element?",
+    "options": {
+      "1": "Proton",
+      "2": "Neutron",
+      "3": "Electron",
+      "4": "Atom"
+    },
+    "answer": "4"
+  },
+  "c8fcdcca-038c-4795-a667-5a3a1c1faaa9": {
+    "question": "Which of the following is a conductor of electricity?",
+    "options": {
+      "1": "Rubber",
+      "2": "Glass",
+      "3": "Copper",
+      "4": "Plastic"
+    },
+    "answer": "3"
+  },
+  "9c561166-3901-4c61-a1eb-bb52927f0a49": {
+    "question": "What is the scientific study of living organisms?",
+    "options": {
+      "1": "Geology",
+      "2": "Astronomy",
+      "3": "Biology",
+      "4": "Chemistry"
+    },
+    "answer": "3"
+  },
+  "01b8c91d-0ab7-4c96-b55d-9d7db637e0af": {
+    "question": "What is the state of matter that has a definite volume but no definite shape?",
+    "options": {
+      "1": "Solid",
+      "2": "Liquid",
+      "3": "Gas",
+      "4": "Plasma"
+    },
+    "answer": "2"
+  }
+}
