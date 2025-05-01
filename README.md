@@ -23,7 +23,7 @@ The system uses JSON files for configuration, question storage, and result track
 - Python 3.8+
 - Required packages: `pydantic` (for schema validation)
   ```bash
-  pip install pydantic
+  pip install -r requirements.txt
   ```
 
 ## Project Structure
@@ -39,6 +39,7 @@ quiz-system/
 ├── admin.py               # Admin script for managing questions
 ├── client.py              # Client script for taking quizzes
 └── README.md              # Project documentation
+|__ requirements.txt       # Project Dependency
 ```
 
 ## Setup
@@ -47,7 +48,7 @@ quiz-system/
 
 2. **Install Dependencies**:
    ```bash
-   pip install pydantic
+   pip install -r requirements.txt
    ```
 
 3. **Create `schemas.py`**:
@@ -153,8 +154,3 @@ quiz-system/
 - Ensure `config.json` lists valid topics, and create corresponding `<topic>.json` files in the `data` directory using the admin script.
 - The admin password is stored in plain text; consider hashing for production use.
 - Quiz results are appended to `result.json` and may grow large over time.
-
-## Future Improvements
-- Add a feature to view past quiz results.
-- Implement question difficulty levels or time tracking.
-- Support multiple-choice question randomization for options.
