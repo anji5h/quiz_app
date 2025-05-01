@@ -1,10 +1,102 @@
 {
-    "2475510a-5aaa-4223-9abf-9dfb574b759a": {
-        "question": "Who wrote the play 'Hamlet'?",
-        "a": "William Shakespeare",
-        "b": "Jane Austen",
-        "c": "Charles Dickens",
-        "d": "George Orwell",
-        "answer": "a"
-    }
+  "a8a4ddb5-e0f0-4ebd-bc6e-76109b5f9fdf": {
+      "question": "Who wrote the play 'Hamlet'?",
+      "options": {
+          "1": "William Shakespeare",
+          "2": "Jane Austen",
+          "3": "Charles Dickens",
+          "4": "George Orwell"
+      },
+      "answer": "1"
+  },
+  "c57a07da-b234-4fc0-bd2a-eb7044b7a2a9": {
+      "question": "Which novel begins with the line: 'It was the best of times, it was the worst of times'?",
+      "options": {
+          "1": "Pride and Prejudice",
+          "2": "1984",
+          "3": "A Tale of Two Cities",
+          "4": "To Kill a Mockingbird"
+      },
+      "answer": "3"
+  },
+  "4b1019ce-1a24-4e03-af3c-76b70f0d2630": {
+      "question": "Who is the author of 'The Great Gatsby'?",
+      "options": {
+          "1": "F. Scott Fitzgerald",
+          "2": "Ernest Hemingway",
+          "3": "John Steinbeck",
+          "4": "Toni Morrison"
+      },
+      "answer": "1"
+  },
+  "1897879c-a7da-4ed3-b64c-a3175528c20f": {
+      "question": "What type of poem has 14 lines and typically follows a specific rhyme scheme?",
+      "options": {
+          "1": "Haiku",
+          "2": "Sonnet",
+          "3": "Limerick",
+          "4": "Free Verse"
+      },
+      "answer": "2"
+  },
+  "d60779bc-f038-4c96-9ac8-df63b5bc6db5": {
+      "question": "In J.R.R. Tolkien's 'The Lord of the Rings', what is the name of the hobbit who carries the One Ring?",
+      "options": {
+          "1": "Samwise Gamgee",
+          "2": "Merry Brandybuck",
+          "3": "Pippin Took",
+          "4": "Frodo Baggins"
+      },
+      "answer": "4"
+  },
+  "19e995e5-96ce-4a4c-833c-2274caa426e9": {
+      "question": "Which famous novel features the character of Elizabeth Bennet?",
+      "options": {
+          "1": "Wuthering Heights",
+          "2": "Jane Eyre",
+          "3": "Pride and Prejudice",
+          "4": "Emma"
+      },
+      "answer": "3"
+  },
+  "fb7f507e-65fb-479f-9874-5a5f84524819": {
+      "question": "Who wrote the epic poem 'The Odyssey'?",
+      "options": {
+          "1": "Homer",
+          "2": "Virgil",
+          "3": "Sophocles",
+          "4": "Plato"
+      },
+      "answer": "1"
+  },
+  "7189b955-5433-4f35-84bc-f128bf7f2f8c": {
+      "question": "What is a metaphor?",
+      "options": {
+          "1": "A direct comparison using 'like' or 'as'",
+          "2": "The repetition of consonant sounds",
+          "3": "A figure of speech where a word or phrase is applied to an object or action to which it is not literally applicable",
+          "4": "An exaggeration for effect"
+      },
+      "answer": "3"
+  },
+  "4f86a308-7766-4cec-8cba-c7414bd8c75c": {
+      "question": "Which American poet wrote 'The Raven'?",
+      "options": {
+          "1": "Walt Whitman",
+          "2": "Emily Dickinson",
+          "3": "Edgar Allan Poe",
+          "4": "Robert Frost"
+      },
+      "answer": "3"
+  },
+  "c5b69cb4-15a1-4a70-99bd-8b96b2a8c724": {
+      "question": "What is the literary device where an earlier event is inserted into the normal chronological order of a narrative?",
+      "options": {
+          "1": "Foreshadowing",
+          "2": "Flashback",
+          "3": "Irony",
+          "4": "Paradox"
+      },
+      "answer": "2"
+  }
 }

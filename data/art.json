@@ -1,82 +1,102 @@
 {
-  "71c85657-28c6-429d-ab1e-6035839434a9": {
+  "0f760ee8-7c33-4797-84c3-ee627c0f129c": {
     "question": "Who painted the 'Mona Lisa'?",
-    "a": "Vincent van Gogh",
-    "b": "Leonardo da Vinci",
-    "c": "Pablo Picasso",
-    "d": "Claude Monet",
-    "answer": "b"
+    "options": {
+      "1": "Vincent van Gogh",
+      "2": "Leonardo da Vinci",
+      "3": "Pablo Picasso",
+      "4": "Claude Monet"
+    },
+    "answer": "2"
   },
-  "154db989-9e0a-4231-8719-570b548c837a": {
+  "657e6dbc-428d-412c-8887-f8cf4cf7de50": {
     "question": "What art movement is characterized by dream-like and illogical imagery?",
-    "a": "Impressionism",
-    "b": "Surrealism",
-    "c": "Cubism",
-    "d": "Renaissance",
-    "answer": "b"
+    "options": {
+      "1": "Impressionism",
+      "2": "Surrealism",
+      "3": "Cubism",
+      "4": "Renaissance"
+    },
+    "answer": "2"
   },
-  "084f8e1e-00e5-4b27-a467-877f599ab329": {
+  "415215ff-f6f5-495d-8c4e-827bc583f148": {
     "question": "Who sculpted the 'David'?",
-    "a": "Michelangelo",
-    "b": "Donatello",
-    "c": "Raphael",
-    "d": "Bernini",
-    "answer": "a"
+    "options": {
+      "1": "Michelangelo",
+      "2": "Donatello",
+      "3": "Raphael",
+      "4": "Bernini"
+    },
+    "answer": "1"
   },
-  "7e2faade-c69d-4d67-9e2b-253869000b62": {
+  "c1eee6a5-2cf7-4403-9ee1-f6e78f6bd5f9": {
     "question": "What is a fresco?",
-    "a": "A painting on canvas",
-    "b": "A sculpture made of bronze",
-    "c": "A painting done on wet plaster",
-    "d": "A type of pottery",
-    "answer": "c"
+    "options": {
+      "1": "A painting on canvas",
+      "2": "A sculpture made of bronze",
+      "3": "A painting done on wet plaster",
+      "4": "A type of pottery"
+    },
+    "answer": "3"
   },
-  "ff4a532d-c9c0-45f3-b7a5-a4ae294e9827": {
+  "c4d725e4-eb96-4b9b-af55-f7d41422e305": {
     "question": "Which artist is famous for his 'Starry Night' painting?",
-    "a": "Pablo Picasso",
-    "b": "Vincent van Gogh",
-    "c": "Salvador Dalí",
-    "d": "Claude Monet",
-    "answer": "b"
+    "options": {
+      "1": "Pablo Picasso",
+      "2": "Vincent van Gogh",
+      "3": "Salvador Dal\u00ed",
+      "4": "Claude Monet"
+    },
+    "answer": "2"
   },
-  "bb3c88b4-ac7d-400c-9ab8-2226bfe71546": {
+  "a912d7cd-2fd2-42f6-a167-9d1ab90fa9d3": {
     "question": "What is the primary color that cannot be created by mixing other colors?",
-    "a": "Green",
-    "b": "Orange",
-    "c": "Purple",
-    "d": "Blue",
-    "answer": "d"
+    "options": {
+      "1": "Green",
+      "2": "Orange",
+      "3": "Purple",
+      "4": "Blue"
+    },
+    "answer": "4"
   },
-  "6391ac8a-ca4c-4a11-91ea-b5d647bbf583": {
+  "51f02ded-74ce-482c-9dbf-1415099e66cd": {
     "question": "What architectural style is known for its pointed arches and stained glass windows?",
-    "a": "Baroque",
-    "b": "Gothic",
-    "c": "Romanesque",
-    "d": "Neoclassical",
-    "answer": "b"
+    "options": {
+      "1": "Baroque",
+      "2": "Gothic",
+      "3": "Romanesque",
+      "4": "Neoclassical"
+    },
+    "answer": "2"
   },
-  "cd2e7f16-64d5-4106-9d28-f70f7a9cf21a": {
+  "a3d6edeb-4ec8-43ea-8e61-535064ac4821": {
     "question": "Who composed the 'Ode to Joy'?",
-    "a": "Wolfgang Amadeus Mozart",
-    "b": "Ludwig van Beethoven",
-    "c": "Johann Sebastian Bach",
-    "d": "Franz Schubert",
-    "answer": "b"
+    "options": {
+      "1": "Wolfgang Amadeus Mozart",
+      "2": "Ludwig van Beethoven",
+      "3": "Johann Sebastian Bach",
+      "4": "Franz Schubert"
+    },
+    "answer": "2"
   },
-  "f3665b1d-97bf-4e01-8fc7-97a73119b225": {
+  "525aef13-45e6-4858-9247-d761112d51ea": {
     "question": "What is a still life in art?",
-    "a": "A portrait of a living person",
-    "b": "A landscape painting",
-    "c": "An artwork depicting inanimate objects",
-    "d": "A historical scene",
-    "answer": "c"
+    "options": {
+      "1": "A portrait of a living person",
+      "2": "A landscape painting",
+      "3": "An artwork depicting inanimate objects",
+      "4": "A historical scene"
+    },
+    "answer": "3"
   },
-  "8ce4e939-10bd-4380-920e-1b46a0c8501f": {
+  "851cecf5-cab7-4e77-9eae-a90f047b1417": {
     "question": "What is the technique of creating an image by assembling small pieces of colored glass, stone, or other materials?",
-    "a": "Fresco",
-    "b": "Mosaic",
-    "c": "Tapestry",
-    "d": "Calligraphy",
-    "answer": "b"
+    "options": {
+      "1": "Fresco",
+      "2": "Mosaic",
+      "3": "Tapestry",
+      "4": "Calligraphy"
+    },
+    "answer": "2"
   }
 }
