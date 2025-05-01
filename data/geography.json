@@ -1,52 +1,102 @@
-[
-  {
+{
+  "e7600883-a332-4295-acd8-aa2e55c16e9f": {
     "question": "What is the capital city of France?",
-    "options": ["Berlin", "Madrid", "Paris", "Rome"],
-    "answer": "Paris"
+    "options": {
+      "1": "Berlin",
+      "2": "Madrid",
+      "3": "Paris",
+      "4": "Rome"
+    },
+    "answer": "3"
   },
-  {
+  "5c2fc031-e4e7-49d8-a9cd-b79a97a80060": {
     "question": "Which continent is the largest by land area?",
-    "options": ["Africa", "Asia", "North America", "Europe"],
-    "answer": "Asia"
+    "options": {
+      "1": "Africa",
+      "2": "Asia",
+      "3": "North America",
+      "4": "Europe"
+    },
+    "answer": "2"
   },
-  {
+  "84466a16-1afe-4e37-bf22-d8c8a43af6fe": {
     "question": "What is the longest river in the world?",
-    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
-    "answer": "Nile"
+    "options": {
+      "1": "Amazon",
+      "2": "Nile",
+      "3": "Yangtze",
+      "4": "Mississippi"
+    },
+    "answer": "2"
   },
-  {
+  "521e458c-258d-4c83-89d6-4727b428acba": {
     "question": "Which mountain range separates Europe from Asia?",
-    "options": ["Alps", "Himalayas", "Andes", "Ural Mountains"],
-    "answer": "Ural Mountains"
+    "options": {
+      "1": "Alps",
+      "2": "Himalayas",
+      "3": "Andes",
+      "4": "Ural Mountains"
+    },
+    "answer": "4"
   },
-  {
+  "e6084654-ce7b-42ba-8bb4-7cdb81111db8": {
     "question": "What is the name of the largest desert in the world?",
-    "options": ["Sahara", "Gobi", "Arabian", "Antarctic"],
-    "answer": "Antarctic"
+    "options": {
+      "1": "Sahara",
+      "2": "Gobi",
+      "3": "Arabian",
+      "4": "Antarctic"
+    },
+    "answer": "4"
   },
-  {
+  "2051e565-b030-4875-93a9-d6ce68522e4f": {
     "question": "Which ocean is the largest?",
-    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
-    "answer": "Pacific"
+    "options": {
+      "1": "Atlantic",
+      "2": "Indian",
+      "3": "Arctic",
+      "4": "Pacific"
+    },
+    "answer": "4"
   },
-  {
+  "19a91bf9-fa46-4e6e-bda0-9b0cd0979436": {
     "question": "What is the capital city of Japan?",
-    "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
-    "answer": "Tokyo"
+    "options": {
+      "1": "Seoul",
+      "2": "Beijing",
+      "3": "Tokyo",
+      "4": "Bangkok"
+    },
+    "answer": "3"
   },
-  {
+  "3a9da936-2f12-4dd7-98c9-2ea879580301": {
     "question": "Which country is known as the 'Land of the Rising Sun'?",
-    "options": ["China", "South Korea", "Japan", "Vietnam"],
-    "answer": "Japan"
+    "options": {
+      "1": "China",
+      "2": "South Korea",
+      "3": "Japan",
+      "4": "Vietnam"
+    },
+    "answer": "3"
   },
-  {
+  "b1f74630-160d-4ef4-af4c-5ab326d4eb87": {
     "question": "What is the highest mountain in the world?",
-    "options": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
-    "answer": "Mount Everest"
+    "options": {
+      "1": "K2",
+      "2": "Mount Everest",
+      "3": "Kangchenjunga",
+      "4": "Lhotse"
+    },
+    "answer": "2"
   },
-  {
+  "7563dbdc-d17a-44fb-80a6-402e0612d689": {
     "question": "Which sea is located between Europe and Africa?",
-    "options": ["Black Sea", "Caspian Sea", "Mediterranean Sea", "Red Sea"],
-    "answer": "Mediterranean Sea"
+    "options": {
+      "1": "Black Sea",
+      "2": "Caspian Sea",
+      "3": "Mediterranean Sea",
+      "4": "Red Sea"
+    },
+    "answer": "3"
   }
-]
+}

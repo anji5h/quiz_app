@@ -1,52 +1,102 @@
-[
-  {
+{
+  "ab329e98-367d-41ea-a666-16750848056b": {
     "question": "In which sport would you find a 'home run'?",
-    "options": ["Soccer", "Basketball", "Baseball", "Tennis"],
-    "answer": "Baseball"
+    "options": {
+      "1": "Soccer",
+      "2": "Basketball",
+      "3": "Baseball",
+      "4": "Tennis"
+    },
+    "answer": "3"
   },
-  {
+  "b16e6019-85eb-423c-ad11-fc81e2d102e4": {
     "question": "How many players are there in a standard basketball team on the court?",
-    "options": ["5", "7", "9", "11"],
-    "answer": "5"
+    "options": {
+      "1": "5",
+      "2": "7",
+      "3": "9",
+      "4": "11"
+    },
+    "answer": "1"
   },
-  {
+  "1934cf8e-7c30-43f4-9140-349e4e94824f": {
     "question": "What is the highest score possible in a single frame of bowling?",
-    "options": ["10", "20", "30", "12"],
-    "answer": "30"
+    "options": {
+      "1": "10",
+      "2": "20",
+      "3": "30",
+      "4": "12"
+    },
+    "answer": "3"
   },
-  {
+  "4ba5239a-4ad5-4c83-a18d-346104f67dcf": {
     "question": "Which country has won the most FIFA World Cup titles?",
-    "options": ["Germany", "Italy", "Brazil", "Argentina"],
-    "answer": "Brazil"
+    "options": {
+      "1": "Germany",
+      "2": "Italy",
+      "3": "Brazil",
+      "4": "Argentina"
+    },
+    "answer": "3"
   },
-  {
+  "a7c3b0eb-d528-4a81-8554-f3994db0b026": {
     "question": "In tennis, what is a score of zero points called?",
-    "options": ["Love", "Deuce", "Ace", "Advantage"],
-    "answer": "Love"
+    "options": {
+      "1": "Love",
+      "2": "Deuce",
+      "3": "Ace",
+      "4": "Advantage"
+    },
+    "answer": "1"
   },
-  {
+  "41c9d589-848f-48d3-9770-8bcd9879be52": {
     "question": "What is the name of the event consisting of multiple athletic contests held every four years?",
-    "options": ["World Series", "Super Bowl", "Olympic Games", "Champions League"],
-    "answer": "Olympic Games"
+    "options": {
+      "1": "World Series",
+      "2": "Super Bowl",
+      "3": "Olympic Games",
+      "4": "Champions League"
+    },
+    "answer": "3"
   },
-  {
+  "53c7956f-a1b7-4a72-b5d8-5b82072a0cdd": {
     "question": "In golf, what is one stroke under par called?",
-    "options": ["Birdie", "Bogey", "Eagle", "Albatross"],
-    "answer": "Birdie"
+    "options": {
+      "1": "Birdie",
+      "2": "Bogey",
+      "3": "Eagle",
+      "4": "Albatross"
+    },
+    "answer": "1"
   },
-  {
+  "0cb13285-7ebb-4331-8368-ec2eb338fbf6": {
     "question": "How many players are there on a standard volleyball team on the court?",
-    "options": ["4", "5", "6", "7"],
-    "answer": "6"
+    "options": {
+      "1": "4",
+      "2": "5",
+      "3": "6",
+      "4": "7"
+    },
+    "answer": "3"
   },
-  {
+  "a5dad33d-cf05-4d51-b3c4-5f4d63099c80": {
     "question": "What is the term for a score of three points in basketball?",
-    "options": ["Field goal", "Free throw", "Three-pointer", "Slam dunk"],
-    "answer": "Three-pointer"
+    "options": {
+      "1": "Field goal",
+      "2": "Free throw",
+      "3": "Three-pointer",
+      "4": "Slam dunk"
+    },
+    "answer": "3"
   },
-  {
+  "e6924573-58bc-4a6a-ba2b-86051cf5d5d3": {
     "question": "Which sport is played on ice with stones and brooms?",
-    "options": ["Hockey", "Curling", "Figure Skating", "Speed Skating"],
-    "answer": "Curling"
+    "options": {
+      "1": "Hockey",
+      "2": "Curling",
+      "3": "Figure Skating",
+      "4": "Speed Skating"
+    },
+    "answer": "2"
   }
-]
+}

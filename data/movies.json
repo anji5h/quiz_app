@@ -1,52 +1,102 @@
-[
-  {
+{
+  "c626a1f3-5782-4485-8580-5d1287dd4450": {
     "question": "Who directed the movie 'Pulp Fiction'?",
-    "options": ["Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "Christopher Nolan"],
-    "answer": "Quentin Tarantino"
+    "options": {
+      "1": "Steven Spielberg",
+      "2": "Quentin Tarantino",
+      "3": "Martin Scorsese",
+      "4": "Christopher Nolan"
+    },
+    "answer": "2"
   },
-  {
+  "ecdbadbe-4250-4a76-b6da-fc92fb3d4c81": {
     "question": "Which film won the Academy Award for Best Picture in 2020?",
-    "options": ["Parasite", "1917", "Once Upon a Time in Hollywood", "Joker"],
-    "answer": "Parasite"
+    "options": {
+      "1": "Parasite",
+      "2": "1917",
+      "3": "Once Upon a Time in Hollywood",
+      "4": "Joker"
+    },
+    "answer": "1"
   },
-  {
+  "1e2e396f-a99a-449c-a4d5-2a970381ced8": {
     "question": "Who played the character of James Bond in the first official Bond film, 'Dr. No'?",
-    "options": ["Sean Connery", "Roger Moore", "George Lazenby", "Timothy Dalton"],
-    "answer": "Sean Connery"
+    "options": {
+      "1": "Sean Connery",
+      "2": "Roger Moore",
+      "3": "George Lazenby",
+      "4": "Timothy Dalton"
+    },
+    "answer": "1"
   },
-  {
+  "c7932bbb-81e7-4e0d-a7a6-8736ea29a17b": {
     "question": "What is the name of the fictional African country in the movie 'Black Panther'?",
-    "options": ["Wakanda", "Zamunda", "Genovia", "Naboo"],
-    "answer": "Wakanda"
+    "options": {
+      "1": "Wakanda",
+      "2": "Zamunda",
+      "3": "Genovia",
+      "4": "Naboo"
+    },
+    "answer": "1"
   },
-  {
+  "59d0a81d-205f-4ee4-91bf-fd564604f49a": {
     "question": "Which animated film features a lion cub named Simba?",
-    "options": ["Toy Story", "The Little Mermaid", "The Lion King", "Aladdin"],
-    "answer": "The Lion King"
+    "options": {
+      "1": "Toy Story",
+      "2": "The Little Mermaid",
+      "3": "The Lion King",
+      "4": "Aladdin"
+    },
+    "answer": "3"
   },
-  {
+  "d3b93fc7-6171-4f01-af36-804a7e7a437c": {
     "question": "Who directed the 'Lord of the Rings' trilogy?",
-    "options": ["Peter Jackson", "George Lucas", "James Cameron", "Ridley Scott"],
-    "answer": "Peter Jackson"
+    "options": {
+      "1": "Peter Jackson",
+      "2": "George Lucas",
+      "3": "James Cameron",
+      "4": "Ridley Scott"
+    },
+    "answer": "1"
   },
-  {
+  "8a4aac89-c975-4b3f-bea4-4cbfa232c407": {
     "question": "What year was the first 'Star Wars' movie released?",
-    "options": ["1977", "1980", "1983", "1974"],
-    "answer": "1977"
+    "options": {
+      "1": "1977",
+      "2": "1980",
+      "3": "1983",
+      "4": "1974"
+    },
+    "answer": "1"
   },
-  {
+  "7dfd962b-a775-4da2-aef1-4c450e3a615c": {
     "question": "Who played the role of Jack Dawson in the movie 'Titanic'?",
-    "options": ["Brad Pitt", "Leonardo DiCaprio", "Matt Damon", "Christian Bale"],
-    "answer": "Leonardo DiCaprio"
+    "options": {
+      "1": "Brad Pitt",
+      "2": "Leonardo DiCaprio",
+      "3": "Matt Damon",
+      "4": "Christian Bale"
+    },
+    "answer": "2"
   },
-  {
+  "179c0f94-66b5-48aa-81d8-3caae6c5ba59": {
     "question": "What is the name of the spaceship in the 'Alien' film franchise?",
-    "options": ["Serenity", "Millennium Falcon", "Nostromo", "Enterprise"],
-    "answer": "Nostromo"
+    "options": {
+      "1": "Serenity",
+      "2": "Millennium Falcon",
+      "3": "Nostromo",
+      "4": "Enterprise"
+    },
+    "answer": "3"
   },
-  {
+  "35f9c2b7-de5f-487d-afd2-902a0f9e6eb4": {
     "question": "Which movie features a character named Forrest Gump?",
-    "options": ["The Shawshank Redemption", "Pulp Fiction", "Forrest Gump", "Goodfellas"],
-    "answer": "Forrest Gump"
+    "options": {
+      "1": "The Shawshank Redemption",
+      "2": "Pulp Fiction",
+      "3": "Forrest Gump",
+      "4": "Goodfellas"
+    },
+    "answer": "3"
   }
-]
+}

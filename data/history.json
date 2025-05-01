@@ -1,52 +1,102 @@
-[
-    {
+{
+  "ed974936-207c-4007-a4d7-05dd665ad2d3": {
       "question": "In what year did World War I begin?",
-      "options": ["1914", "1918", "1939", "1945"],
-      "answer": "1914"
-    },
-    {
+      "options": {
+          "1": "1914",
+          "2": "1918",
+          "3": "1939",
+          "4": "1945"
+      },
+      "answer": "1"
+  },
+  "7516f53e-608f-4ba2-98b8-8230c217e298": {
       "question": "Who was the first President of the United States?",
-      "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
-      "answer": "George Washington"
-    },
-    {
+      "options": {
+          "1": "Thomas Jefferson",
+          "2": "George Washington",
+          "3": "Abraham Lincoln",
+          "4": "John Adams"
+      },
+      "answer": "2"
+  },
+  "efce4d40-892c-4f96-a5d5-d9af6f466210": {
       "question": "What ancient civilization built the Great Pyramid of Giza?",
-      "options": ["Roman", "Greek", "Egyptian", "Mesopotamian"],
-      "answer": "Egyptian"
-    },
-    {
+      "options": {
+          "1": "Roman",
+          "2": "Greek",
+          "3": "Egyptian",
+          "4": "Mesopotamian"
+      },
+      "answer": "3"
+  },
+  "24282a6f-e4ef-4b13-a0e5-b5929087c75f": {
       "question": "Which English monarch signed the Magna Carta in 1215?",
-      "options": ["King John", "King Henry VIII", "Queen Elizabeth I", "King Richard I"],
-      "answer": "King John"
-    },
-    {
+      "options": {
+          "1": "King John",
+          "2": "King Henry VIII",
+          "3": "Queen Elizabeth I",
+          "4": "King Richard I"
+      },
+      "answer": "1"
+  },
+  "e2de828f-92a0-47b1-8b7c-40a65f65690f": {
       "question": "The Renaissance was a period of great flourishing in which area?",
-      "options": ["Science", "Art and Literature", "Politics", "Exploration"],
-      "answer": "Art and Literature"
-    },
-    {
+      "options": {
+          "1": "Science",
+          "2": "Art and Literature",
+          "3": "Politics",
+          "4": "Exploration"
+      },
+      "answer": "2"
+  },
+  "f722668b-09c5-4db5-a4b6-7bb69f310fec": {
       "question": "Who is credited with developing the theory of relativity?",
-      "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Stephen Hawking"],
-      "answer": "Albert Einstein"
-    },
-    {
+      "options": {
+          "1": "Isaac Newton",
+          "2": "Galileo Galilei",
+          "3": "Albert Einstein",
+          "4": "Stephen Hawking"
+      },
+      "answer": "3"
+  },
+  "681547e4-b2f2-40f8-8b51-2269ce985a8a": {
       "question": "What event is considered the start of the French Revolution?",
-      "options": ["The storming of the Bastille", "The Reign of Terror", "The Tennis Court Oath", "The execution of Louis XVI"],
-      "answer": "The storming of the Bastille"
-    },
-    {
+      "options": {
+          "1": "The storming of the Bastille",
+          "2": "The Reign of Terror",
+          "3": "The Tennis Court Oath",
+          "4": "The execution of Louis XVI"
+      },
+      "answer": "1"
+  },
+  "86d40415-7fe8-4ab3-8357-5ec31c02e690": {
       "question": "Which explorer is famous for his voyages to the Americas in 1492?",
-      "options": ["Ferdinand Magellan", "Vasco da Gama", "Christopher Columbus", "James Cook"],
-      "answer": "Christopher Columbus"
-    },
-    {
+      "options": {
+          "1": "Ferdinand Magellan",
+          "2": "Vasco da Gama",
+          "3": "Christopher Columbus",
+          "4": "James Cook"
+      },
+      "answer": "3"
+  },
+  "a15cd674-ed09-4caf-958f-35a4e01638c8": {
       "question": "What was the name of the trade route connecting the East and West, facilitating the exchange of goods like silk and spices?",
-      "options": ["The Spice Route", "The Silk Road", "The Gold Road", "The Tea Trail"],
-      "answer": "The Silk Road"
-    },
-    {
+      "options": {
+          "1": "The Spice Route",
+          "2": "The Silk Road",
+          "3": "The Gold Road",
+          "4": "The Tea Trail"
+      },
+      "answer": "2"
+  },
+  "517d5112-3e47-432d-93e4-473995b9f547": {
       "question": "In what year did the Soviet Union collapse?",
-      "options": ["1985", "1991", "2001", "1979"],
-      "answer": "1991"
-    }
-  ]
+      "options": {
+          "1": "1985",
+          "2": "1991",
+          "3": "2001",
+          "4": "1979"
+      },
+      "answer": "2"
+  }
+}
