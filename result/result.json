@@ -5,6 +5,27 @@
                 "timestamp": "2025-05-01 17:58:12",
                 "score": 1,
                 "total": 10
+            },
+            {
+                "timestamp": "2025-05-01 18:04:10",
+                "score": 1,
+                "total": 10
+            }
+        ],
+        "geography": [
+            {
+                "timestamp": "2025-05-01 20:28:11",
+                "score": 2,
+                "total": 10
+            }
+        ]
+    },
+    "aditya": {
+        "literature": [
+            {
+                "timestamp": "2025-05-01 20:39:50",
+                "score": 2,
+                "total": 10
             }
         ]
     }
