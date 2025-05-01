@@ -45,8 +45,8 @@ def print_topics(topics: list[str]) -> None:
 
 
 def validate_option(option: str) -> bool:
-    """Validate if the option is one of a, b, c, or d."""
-    return option.lower() in {"a", "b", "c", "d"}
+    """Validate if the option is one of 1, 2, 3, or 4."""
+    return option.lower() in {"1", "2", "3", "4"}
 
 
 def add_question(ques_per_topic: int, topic_name: str) -> None:
@@ -61,7 +61,9 @@ def add_question(ques_per_topic: int, topic_name: str) -> None:
 
     # Check if maximum questions reached
     if len(quiz.root) >= ques_per_topic:
-        print(f"Maximum {ques_per_topic} questions reached for topic '{topic_name}'")
+        print(
+            f"Limit reached: '{topic_name}' can have only {ques_per_topic} questions."
+        )
         return
 
     # Get question details with validation
@@ -71,25 +73,22 @@ def add_question(ques_per_topic: int, topic_name: str) -> None:
         return
 
     options = {}
-    for opt in ["a", "b", "c", "d"]:
+    for opt in ["1", "2", "3", "4"]:
         option_text = input(f"Enter option {opt} (non-empty): ").strip()
         if not option_text:
             print(f"Option {opt} cannot be empty.")
             return
         options[opt] = option_text
 
-    ans = input("Enter correct answer (a, b, c, or d): ").strip().lower()
+    ans = input("Enter correct option (1, 2, 3, or 4): ").strip().lower()
     if not validate_option(ans):
-        print("Invalid answer. Must be a, b, c, or d.")
+        print("Invalid answer. Must be 1, 2, 3, or 4")
         return
 
     # Create and add new question
     new_question = Question(
         question=ques,
-        a=options["a"],
-        b=options["b"],
-        c=options["c"],
-        d=options["d"],
+        options=options,
         answer=ans,
     )
     ques_id = str(uuid.uuid4())
