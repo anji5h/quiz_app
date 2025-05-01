@@ -1,82 +1,102 @@
 {
-  "af17cc29-5717-4bc9-9402-c86b86d63669": {
+  "b282cdc4-2a46-417e-b551-7ffacc9d5007": {
     "question": "What does CPU stand for?",
-    "a": "Central Processing Unit",
-    "b": "Computer Personal Unit",
-    "c": "Central Power Unit",
-    "d": "Common Processing Utility",
-    "answer": "a"
+    "options": {
+      "1": "Central Processing Unit",
+      "2": "Computer Personal Unit",
+      "3": "Central Power Unit",
+      "4": "Common Processing Utility"
+    },
+    "answer": "1"
   },
-  "e1dae871-bb9c-4e89-9897-d754890685eb": {
+  "681a01ea-9f0c-4dca-9b4b-d10edbd063d1": {
     "question": "What is the primary function of RAM in a computer?",
-    "a": "Long-term data storage",
-    "b": "Permanent storage of the operating system",
-    "c": "Temporary storage for active data",
-    "d": "Graphics processing",
-    "answer": "c"
+    "options": {
+      "1": "Long-term data storage",
+      "2": "Permanent storage of the operating system",
+      "3": "Temporary storage for active data",
+      "4": "Graphics processing"
+    },
+    "answer": "3"
   },
-  "4f4b0883-a53c-4d0f-bbc6-d7b4c4a169ba": {
+  "ad7d5e1c-66e6-4c39-8e4e-f317fdff61c3": {
     "question": "What is the binary representation of the decimal number 5?",
-    "a": "100",
-    "b": "101",
-    "c": "110",
-    "d": "011",
-    "answer": "b"
+    "options": {
+      "1": "100",
+      "2": "101",
+      "3": "110",
+      "4": "011"
+    },
+    "answer": "2"
   },
-  "d0373105-5e5c-407d-9808-120c69226d44": {
+  "9ea164f4-f0bb-4a58-90f4-af118e1f7ca0": {
     "question": "What does HTML stand for?",
-    "a": "Hyper Text Markup Language",
-    "b": "Highly Technical Machine Language",
-    "c": "Hyperlink and Text Management Language",
-    "d": "Home Tool Markup Language",
-    "answer": "a"
+    "options": {
+      "1": "Hyper Text Markup Language",
+      "2": "Highly Technical Machine Language",
+      "3": "Hyperlink and Text Management Language",
+      "4": "Home Tool Markup Language"
+    },
+    "answer": "1"
   },
-  "257a137c-7104-480a-8b25-f1d0a045d964": {
+  "ee76d94a-5f62-4d8e-baaa-1a8328f875ff": {
     "question": "Which programming language is often used for web development and is known for its dynamic typing?",
-    "a": "Java",
-    "b": "C++",
-    "c": "Python",
-    "d": "JavaScript",
-    "answer": "d"
+    "options": {
+      "1": "Java",
+      "2": "C++",
+      "3": "Python",
+      "4": "JavaScript"
+    },
+    "answer": "4"
   },
-  "5b75ef87-9791-4489-9ab2-76337a71f034": {
+  "3fa83295-e26b-4376-992d-e6b7d1c51f16": {
     "question": "What is an algorithm?",
-    "a": "A type of computer hardware",
-    "b": "A set of well-defined instructions for solving a problem",
-    "c": "A high-level programming language",
-    "d": "A unit of digital information",
-    "answer": "b"
+    "options": {
+      "1": "A type of computer hardware",
+      "2": "A set of well-defined instructions for solving a problem",
+      "3": "A high-level programming language",
+      "4": "A unit of digital information"
+    },
+    "answer": "2"
   },
-  "662f24db-697a-4b7a-86de-f45ec4551cca": {
+  "859d3c85-7bdf-48de-abe0-d3b4d5734c03": {
     "question": "What is a database?",
-    "a": "A collection of web pages",
-    "b": "A structured set of data held in a computer",
-    "c": "A type of computer virus",
-    "d": "A graphical user interface",
-    "answer": "b"
+    "options": {
+      "1": "A collection of web pages",
+      "2": "A structured set of data held in a computer",
+      "3": "A type of computer virus",
+      "4": "A graphical user interface"
+    },
+    "answer": "2"
   },
-  "cf961e58-cc77-46d7-a04f-282de3d69a87": {
+  "5f2b1753-088e-4dd7-ae6f-f0751e34dc59": {
     "question": "What does URL stand for?",
-    "a": "Uniform Resource Locator",
-    "b": "Universal Retrieval Link",
-    "c": "Ultimate Reference Location",
-    "d": "Unified Router Logic",
-    "answer": "a"
+    "options": {
+      "1": "Uniform Resource Locator",
+      "2": "Universal Retrieval Link",
+      "3": "Ultimate Reference Location",
+      "4": "Unified Router Logic"
+    },
+    "answer": "1"
   },
-  "a1a6a608-06c6-4962-ba94-8d5f0aa0abff": {
+  "675ba7a9-bb22-4268-886f-7abce13d7ec1": {
     "question": "What is the purpose of a firewall in computer security?",
-    "a": "To encrypt data",
-    "b": "To prevent unauthorized access to a network",
-    "c": "To scan for viruses",
-    "d": "To manage network connections",
-    "answer": "b"
+    "options": {
+      "1": "To encrypt data",
+      "2": "To prevent unauthorized access to a network",
+      "3": "To scan for viruses",
+      "4": "To manage network connections"
+    },
+    "answer": "2"
   },
-  "5813a264-0c09-4264-a8e4-3219fffd482d": {
+  "93cacbff-d644-4750-89f3-898234d0a389": {
     "question": "What is cloud computing?",
-    "a": "Storing data on physical hard drives",
-    "b": "Running software directly on a personal computer",
-    "c": "Delivering computing services over the internet",
-    "d": "Using only open-source software",
-    "answer": "c"
+    "options": {
+      "1": "Storing data on physical hard drives",
+      "2": "Running software directly on a personal computer",
+      "3": "Delivering computing services over the internet",
+      "4": "Using only open-source software"
+    },
+    "answer": "3"
   }
 }
