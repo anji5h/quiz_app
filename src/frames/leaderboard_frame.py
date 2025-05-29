@@ -11,37 +11,77 @@ class LeaderboardFrame(tk.Frame):
         super().__init__(parent)
         self.app = app
         self.parent_frame = parent_frame
+        self.configure(bg="#f0f0f0")  # Light gray background for consistency
         self.setup_ui()
 
     def setup_ui(self):
-        tk.Label(self, text="Leaderboard", font=("Arial", 16)).pack(pady=10)
-        config = self.app.data_manager.load_config()
-        if not config:
-            self.back()
-            return
-        tk.Label(self, text="Select Topic").pack()
+        # Center the frame content
+        self.pack(fill="both", expand=True)
+
+        # Main container frame with padding
+        main_frame = tk.Frame(self, bg="#f0f0f0")
+        main_frame.pack(expand=True)
+
+        # Title
+        tk.Label(
+            main_frame,
+            text="Leaderboard",
+            font=("Arial", 24, "bold"),
+            bg="#f0f0f0",
+            fg="#333333",
+        ).pack(pady=(20, 20))
+
+        # Topic Selection
+        tk.Label(
+            main_frame,
+            text="Select Topic",
+            font=("Arial", 12),
+            bg="#f0f0f0",
+            fg="#333333",
+        ).pack(pady=(0, 5))
         self.topic_var = tk.StringVar(value="All")
-        topics = config.topics
-        ttk.Combobox(
-            self,
+        topic_combo = ttk.Combobox(
+            main_frame,
             textvariable=self.topic_var,
-            values=["All"] + [t.replace("_", " ").title() for t in topics],
+            values=["All"]
+            + [
+                t.replace("_", " ").title()
+                for t in self.app.data_manager.load_config().topics
+            ],
             state="readonly",
-        ).pack(pady=5)
+            width=30,
+            font=("Arial", 12),
+        )
+        topic_combo.pack(pady=5)
 
         self.topic_var.trace_add("write", self.on_topic_change)
-        tk.Button(self, text="Back", command=self.back).pack(pady=5)
+        tk.Button(
+            main_frame,
+            text="Back",
+            command=self.back,
+            font=("Arial", 12),
+            bg="#2196F3",
+            fg="white",
+            width=10,
+            padx=10,
+            pady=5,
+        ).pack(pady=10)
+
+        # Treeview for leaderboard
         self.tree = ttk.Treeview(
-            self, columns=("Username", "Score", "Percentage"), show="headings"
+            main_frame,
+            columns=("Username", "Score", "Percentage"),
+            show="headings",
+            style="Treeview",
         )
         self.tree.heading("Username", text="Username")
         self.tree.heading("Score", text="Score")
         self.tree.heading("Percentage", text="Percentage (%)")
 
         self.tree.column("Username", anchor="center", width=150)
-        self.tree.column("Score", anchor="center", width=100)
+        self.tree.column("Score", anchor="center", width=150)
         self.tree.column("Percentage", anchor="center", width=150)
-        self.tree.pack(fill="both", expand=True, padx=10, pady=10)
+        self.tree.pack(fill="both", expand=True, padx=20, pady=10)
 
         self.show_leaderboard()
 

@@ -3,7 +3,6 @@ from tkinter import ttk
 from frames.add_question_frame import AddQuestionFrame
 from frames.delete_question_frame import DeleteQuestionFrame
 
-
 class ManageQuestionsFrame(tk.Frame):
     """Frame for adding/deleting questions."""
 
@@ -11,21 +10,62 @@ class ManageQuestionsFrame(tk.Frame):
         super().__init__(parent)
         self.app = app
         self.parent_frame = parent_frame
+        self.configure(bg="#f0f0f0")  # Light gray background for consistency
         self.setup_ui()
 
     def setup_ui(self):
-        tk.Label(self, text="Manage Questions", font=("Arial", 16)).pack(pady=10)
-        config = self.app.data_manager.load_config()
-        if not config:
-            self.back()
-            return
-        tk.Button(self, text="Add Question", command=self.show_add_question).pack(
-            pady=5
-        )
-        tk.Button(self, text="Delete Question", command=self.show_delete_question).pack(
-            pady=5
-        )
-        tk.Button(self, text="Back", command=self.back).pack(pady=5)
+        # Center the frame content
+        self.pack(fill="both", expand=True)
+
+        # Main container frame with padding
+        main_frame = tk.Frame(self, bg="#f0f0f0")
+        main_frame.pack(expand=True)
+
+        # Title
+        tk.Label(
+            main_frame,
+            text="Manage Questions",
+            font=("Arial", 24, "bold"),
+            bg="#f0f0f0",
+            fg="#333333",
+        ).pack(pady=(20, 40))
+
+        # Buttons with distinct colors and centered layout
+        tk.Button(
+            main_frame,
+            text="Add Question",
+            command=self.show_add_question,
+            font=("Arial", 12),
+            bg="#4CAF50",  # Green
+            fg="white",
+            width=20,
+            padx=10,
+            pady=5,
+        ).pack(pady=10)
+
+        tk.Button(
+            main_frame,
+            text="Delete Question",
+            command=self.show_delete_question,
+            font=("Arial", 12),
+            bg="#F44336",  # Red
+            fg="white",
+            width=20,
+            padx=10,
+            pady=5,
+        ).pack(pady=10)
+
+        tk.Button(
+            main_frame,
+            text="Back",
+            command=self.back,
+            font=("Arial", 12),
+            bg="#2196F3",  # Blue
+            fg="white",
+            width=20,
+            padx=10,
+            pady=5,
+        ).pack(pady=10)
 
     def show_add_question(self):
         self.app.clear_frame()
