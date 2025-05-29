@@ -27,8 +27,10 @@ class DeleteQuestionFrame(tk.Frame):
         tk.Button(self, text="Back", command=self.back).pack(pady=5)
         self.tree = ttk.Treeview(self, columns=("ID", "Question"), show="headings")
         self.tree.heading("ID", text="Question ID")
+        self.tree.column("ID", anchor="center", width=150)
         self.tree.heading("Question", text="Question Text")
         self.tree.pack(fill="both", expand=True, padx=10, pady=10)
+
         tk.Button(self, text="Delete Selected", command=self.delete_question).pack(
             pady=5
         )

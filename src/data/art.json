@@ -88,15 +88,5 @@
             "4": "A historical scene"
         },
         "answer": "3"
-    },
-    "4e3091ba-c746-482f-b6f3-9510f3e238be": {
-        "question": "sample question",
-        "options": {
-            "1": "one",
-            "2": "two",
-            "3": "three",
-            "4": "four"
-        },
-        "answer": "1"
     }
 }
