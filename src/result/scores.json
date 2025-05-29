@@ -5,12 +5,22 @@
                 "timestamp": "2025-05-29T15:53:55.175958",
                 "score": 3,
                 "total": 10
+            },
+            {
+                "timestamp": "2025-05-29T21:28:23.092681",
+                "score": 5,
+                "total": 9
             }
         ],
         "computer_science": [
             {
                 "timestamp": "2025-05-29T19:03:11.956226",
                 "score": 5,
+                "total": 10
+            },
+            {
+                "timestamp": "2025-05-30T00:29:19.851934",
+                "score": 9,
                 "total": 10
             }
         ]

@@ -21,10 +21,10 @@ class DataManager:
     """Handles JSON file operations and data validation."""
 
     def __init__(self):
-        self.config_path = os.path.join(os.getcwd(), "src", "config", "config.json")
-        self.data_dir = os.path.join(os.getcwd(), "src", "data")
-        self.scores_path = os.path.join(os.getcwd(), "src", "result", "scores.json")
-        self.users_path = os.path.join(os.getcwd(), "src", "users", "users.json")
+        self.config_path = os.path.join(os.path.curdir, "config", "config.json")
+        self.data_dir = os.path.join(os.path.curdir, "data")
+        self.scores_path = os.path.join(os.path.curdir, "result", "scores.json")
+        self.users_path = os.path.join(os.path.curdir, "users", "users.json")
 
     def load_json_file(self, file_path: str) -> Optional[dict]:
         try:
