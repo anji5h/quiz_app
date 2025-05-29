@@ -19,14 +19,6 @@ class ManageQuestionsFrame(tk.Frame):
         if not config:
             self.back()
             return
-        tk.Label(self, text="Select Topic").pack()
-        self.topic_var = tk.StringVar()
-        ttk.Combobox(
-            self,
-            textvariable=self.topic_var,
-            values=[t.replace("_", " ").title() for t in config.topics],
-            state="readonly",
-        ).pack(pady=5)
         tk.Button(self, text="Add Question", command=self.show_add_question).pack(
             pady=5
         )
@@ -46,6 +38,4 @@ class ManageQuestionsFrame(tk.Frame):
         self.app.current_frame.pack(fill="both", expand=True)
 
     def back(self):
-        self.app.clear_frame()
-        self.app.current_frame = self.parent_frame
-        self.app.current_frame.pack(fill="both", expand=True)
+        self.app.show_admin_frame()

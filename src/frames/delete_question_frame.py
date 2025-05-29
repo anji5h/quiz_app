@@ -43,7 +43,7 @@ class DeleteQuestionFrame(tk.Frame):
         questions = self.app.data_manager.load_questions(topic)
         if questions:
             quiz_data = self.app.data_manager.load_json_file(
-                os.path.join(self.app.data_manager.data_dir, f"quiz_{topic}.json")
+                os.path.join(self.app.data_manager.data_dir, f"{topic}.json")
             )
             for qid, q in quiz_data.items():
                 self.tree.insert("", tk.END, values=(qid, q["question"]))

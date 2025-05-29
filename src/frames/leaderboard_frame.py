@@ -20,7 +20,7 @@ class LeaderboardFrame(tk.Frame):
             self.back()
             return
         tk.Label(self, text="Select Topic").pack()
-        self.topic_var = tk.StringVar()
+        self.topic_var = tk.StringVar(value="All")
         topics = config.topics
         ttk.Combobox(
             self,
@@ -28,18 +28,26 @@ class LeaderboardFrame(tk.Frame):
             values=["All"] + [t.replace("_", " ").title() for t in topics],
             state="readonly",
         ).pack(pady=5)
-        tk.Button(self, text="Show Leaderboard", command=self.show_leaderboard).pack(
-            pady=5
-        )
+
+        self.topic_var.trace_add("write", self.on_topic_change)
         tk.Button(self, text="Back", command=self.back).pack(pady=5)
         self.tree = ttk.Treeview(
-            self, columns=("Username", "Score", "Total", "Percentage"), show="headings"
+            self, columns=("Username", "Score", "Percentage"), show="headings"
         )
         self.tree.heading("Username", text="Username")
         self.tree.heading("Score", text="Score")
-        self.tree.heading("Total", text="Total")
         self.tree.heading("Percentage", text="Percentage (%)")
+
+        self.tree.column("Username", anchor="center", width=150)
+        self.tree.column("Score", anchor="center", width=100)
+        self.tree.column("Percentage", anchor="center", width=150)
         self.tree.pack(fill="both", expand=True, padx=10, pady=10)
+
+        self.show_leaderboard()
+
+    def on_topic_change(self, *args):
+        """Update the leaderboard when the topic selection changes."""
+        self.show_leaderboard()
 
     def show_leaderboard(self):
         for item in self.tree.get_children():
@@ -69,8 +77,7 @@ class LeaderboardFrame(tk.Frame):
                     if total_questions > 0:
                         aggregated[username] = {
                             "username": username,
-                            "score": best_score,
-                            "total": total_questions,
+                            "score": f"{best_score}/{total_questions}",
                             "percentage": (
                                 (best_score / total_questions * 100)
                                 if total_questions > 0
@@ -94,12 +101,12 @@ class LeaderboardFrame(tk.Frame):
                 values=(
                     entry["username"],
                     entry["score"],
-                    entry["total"],
                     f"{entry['percentage']:.2f}",
                 ),
             )
 
     def back(self):
-        self.app.clear_frame()
-        self.app.current_frame = self.parent_frame
-        self.app.current_frame.pack(fill="both", expand=True)
+        if self.parent_frame.__class__.__name__ == "UserFrame":
+            self.app.show_user_frame()
+        elif self.parent_frame.__class__.__name__ == "AdminFrame":
+            self.app.show_admin_frame()

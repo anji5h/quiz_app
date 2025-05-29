@@ -15,7 +15,7 @@ class AdminFrame(tk.Frame):
     def setup_ui(self):
         tk.Label(
             self,
-            text=f"Admin Dashboard: {self.app.current_user.username}",
+            text=f"Admin Dashboard",
             font=("Arial", 16),
         ).pack(pady=10)
         tk.Button(

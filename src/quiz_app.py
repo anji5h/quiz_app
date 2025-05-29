@@ -16,30 +16,37 @@ class QuizApp:
         self.data_manager = DataManager()
         self.current_user = None
         self.current_frame = None
+        self.frames = {}
         self.show_auth_frame()
 
     def clear_frame(self):
         if self.current_frame:
-            self.current_frame.destroy()
+            self.current_frame.pack_forget()
         self.current_frame = None
 
     def show_auth_frame(self):
+        if "auth" not in self.frames:
+            self.frames["auth"] = AuthFrame(self.root, self)
         self.clear_frame()
-        self.current_frame = AuthFrame(self.root, self)
+        self.current_frame = self.frames["auth"]
         self.current_frame.pack(fill="both", expand=True)
 
     def show_user_frame(self):
         from frames.user_frame import UserFrame
 
+        if "user" not in self.frames:
+            self.frames["user"] = UserFrame(self.root, self)
         self.clear_frame()
-        self.current_frame = UserFrame(self.root, self)
+        self.current_frame = self.frames["user"]
         self.current_frame.pack(fill="both", expand=True)
 
     def show_admin_frame(self):
         from frames.admin_frame import AdminFrame
 
+        if "admin" not in self.frames:
+            self.frames["admin"] = AdminFrame(self.root, self)
         self.clear_frame()
-        self.current_frame = AdminFrame(self.root, self)
+        self.current_frame = self.frames["admin"]
         self.current_frame.pack(fill="both", expand=True)
 
     def login(self, username: str, password: str) -> bool:

@@ -1,7 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
-from schemas import Question
-
 
 class QuizFrame(tk.Frame):
     """Frame for taking a quiz."""
@@ -63,7 +61,7 @@ class QuizFrame(tk.Frame):
             font=("Arial", 12),
             wraplength=700,
         ).pack(pady=10)
-        self.selected_answer.set("")
+        self.selected_answer.set(" ")
         for key in sorted(question.options.keys()):
             tk.Radiobutton(
                 self,
@@ -107,6 +105,4 @@ class QuizFrame(tk.Frame):
         tk.Button(self, text="Back", command=self.back).pack(pady=5)
 
     def back(self):
-        self.app.clear_frame()
-        self.app.current_frame = self.parent_frame
-        self.app.current_frame.pack(fill="both", expand=True)
+        self.app.show_user_frame()

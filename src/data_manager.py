@@ -3,6 +3,7 @@ import json
 import random
 from typing import Optional, List, Dict
 from datetime import datetime
+import uuid
 import bcrypt
 from tkinter import messagebox
 from schemas import (
@@ -71,9 +72,6 @@ class DataManager:
             quiz = Quiz.model_validate(quiz_raw)
             questions = list(quiz.root.values())
             random.shuffle(questions)
-            config = self.load_config()
-            if config:
-                questions = questions[: config.questionsPerTopic]  # Limit questions
             return questions
         except Exception as e:
             messagebox.showerror(
@@ -95,7 +93,7 @@ class DataManager:
                     f"Topic '{topic}' has reached the limit of {config.questionsPerTopic} questions",
                 )
                 return None
-            question_id = str(os.urandom(16).hex())
+            question_id = str(uuid.uuid4())
             quiz.root[question_id] = question
             if self.save_json_file(path, quiz.model_dump()):
                 return question_id
@@ -154,7 +152,7 @@ class DataManager:
             result.root[username] = User(root={})
         if topic not in result.root[username].root:
             result.root[username].root[topic] = []
-        new_score = Score(timestamp=datetime.now(), score=score, total=total)
+        new_score = Score(timestamp=datetime.now().isoformat(), score=score, total=total)
         result.root[username].root[topic].append(new_score)
         return self.save_json_file(self.scores_path, result.model_dump())
 
