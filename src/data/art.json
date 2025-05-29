@@ -44,7 +44,7 @@
         "options": {
             "1": "Pablo Picasso",
             "2": "Vincent van Gogh",
-            "3": "Salvador Dal\u00ed",
+            "3": "Salvador Dal",
             "4": "Claude Monet"
         },
         "answer": "2"
@@ -88,15 +88,5 @@
             "4": "A historical scene"
         },
         "answer": "3"
-    },
-    "a8239ecd-7cc1-4582-8896-ed518c2319d5": {
-        "question": "Worlds first art?",
-        "options": {
-            "1": "Monalisa",
-            "2": "abc",
-            "3": "xyz",
-            "4": "asd"
-        },
-        "answer": "1"
     }
 }
