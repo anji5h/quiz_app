@@ -28,6 +28,20 @@ class QuizApp:
         self.current_frame = AuthFrame(self.root, self)
         self.current_frame.pack(fill="both", expand=True)
 
+    def show_user_frame(self):
+        from frames.user_frame import UserFrame
+
+        self.clear_frame()
+        self.current_frame = UserFrame(self.root, self)
+        self.current_frame.pack(fill="both", expand=True)
+
+    def show_admin_frame(self):
+        from frames.admin_frame import AdminFrame
+
+        self.clear_frame()
+        self.current_frame = AdminFrame(self.root, self)
+        self.current_frame.pack(fill="both", expand=True)
+
     def login(self, username: str, password: str) -> bool:
         users = self.data_manager.load_users()
         if not users or username not in users.root:
