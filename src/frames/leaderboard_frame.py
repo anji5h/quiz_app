@@ -11,14 +11,12 @@ class LeaderboardFrame(tk.Frame):
         super().__init__(parent)
         self.app = app
         self.parent_frame = parent_frame
-        self.configure(bg="#f0f0f0")  # Light gray background for consistency
+        self.configure(bg="#f0f0f0")
         self.setup_ui()
 
     def setup_ui(self):
-        # Center the frame content
         self.pack(fill="both", expand=True)
 
-        # Main container frame with padding
         main_frame = tk.Frame(self, bg="#f0f0f0")
         main_frame.pack(expand=True)
 
@@ -55,17 +53,6 @@ class LeaderboardFrame(tk.Frame):
         topic_combo.pack(pady=5)
 
         self.topic_var.trace_add("write", self.on_topic_change)
-        tk.Button(
-            main_frame,
-            text="Back",
-            command=self.back,
-            font=("Arial", 12),
-            bg="#2196F3",
-            fg="white",
-            width=10,
-            padx=10,
-            pady=5,
-        ).pack(pady=10)
 
         # Treeview for leaderboard
         self.tree = ttk.Treeview(
@@ -82,6 +69,18 @@ class LeaderboardFrame(tk.Frame):
         self.tree.column("Score", anchor="center", width=150)
         self.tree.column("Percentage", anchor="center", width=150)
         self.tree.pack(fill="both", expand=True, padx=20, pady=10)
+
+        tk.Button(
+            main_frame,
+            text="Back",
+            command=self.back,
+            font=("Arial", 12),
+            bg="#2196F3",
+            fg="white",
+            width=10,
+            padx=10,
+            pady=5,
+        ).pack(pady=10)
 
         self.show_leaderboard()
 
