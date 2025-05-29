@@ -9,18 +9,15 @@ class AnalyticsFrame(tk.Frame):
         super().__init__(parent)
         self.app = app
         self.parent_frame = parent_frame
-        self.configure(bg="#f0f0f0")  # Light gray background for consistency
+        self.configure(bg="#f0f0f0")
         self.setup_ui()
 
     def setup_ui(self):
-        # Center the frame content
         self.pack(fill="both", expand=True)
 
-        # Main container frame with padding
         main_frame = tk.Frame(self, bg="#f0f0f0")
         main_frame.pack(expand=True)
 
-        # Title
         tk.Label(
             main_frame,
             text="Analytics",
@@ -29,7 +26,6 @@ class AnalyticsFrame(tk.Frame):
             fg="#333333",
         ).pack(pady=(20, 20))
 
-        # Grid for main metrics
         metrics_frame = tk.Frame(main_frame, bg="#f0f0f0")
         metrics_frame.pack(pady=10)
 
@@ -62,7 +58,6 @@ class AnalyticsFrame(tk.Frame):
             anchor="center",
         ).grid(row=0, column=2, padx=10, pady=5)
 
-        # Per-Topic Activity Table
         tk.Label(
             main_frame,
             text="Per-Topic Activity:",

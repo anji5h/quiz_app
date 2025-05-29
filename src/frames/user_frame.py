@@ -1,7 +1,7 @@
 import tkinter as tk
 from frames.quiz_frame import QuizFrame
 from frames.leaderboard_frame import LeaderboardFrame
-
+from frames.user_analytics_frame import UserAnalyticsFrame
 
 class UserFrame(tk.Frame):
     """Frame for user functionalities."""
@@ -31,7 +31,7 @@ class UserFrame(tk.Frame):
             text="Take Quiz",
             command=self.show_quiz,
             font=("Arial", 12),
-            bg="#4CAF50",  # Green
+            bg="#4CAF50",
             fg="white",
             width=20,
             padx=10,
@@ -43,7 +43,19 @@ class UserFrame(tk.Frame):
             text="View Leaderboard",
             command=self.show_leaderboard,
             font=("Arial", 12),
-            bg="#2196F3",  # Blue
+            bg="#2196F3",
+            fg="white",
+            width=20,
+            padx=10,
+            pady=5,
+        ).pack(pady=10)
+
+        tk.Button(
+            main_frame,
+            text="View Analytics",
+            command=self.show_analytics,
+            font=("Arial", 12),
+            bg="#2196F3",
             fg="white",
             width=20,
             padx=10,
@@ -70,4 +82,9 @@ class UserFrame(tk.Frame):
     def show_leaderboard(self):
         self.app.clear_frame()
         self.app.current_frame = LeaderboardFrame(self.app.root, self.app, self)
+        self.app.current_frame.pack(fill="both", expand=True)
+    
+    def show_analytics(self):
+        self.app.clear_frame()
+        self.app.current_frame = UserAnalyticsFrame(self.app.root, self.app, self)
         self.app.current_frame.pack(fill="both", expand=True)

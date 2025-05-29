@@ -6,6 +6,13 @@
                 "score": 3,
                 "total": 10
             }
+        ],
+        "computer_science": [
+            {
+                "timestamp": "2025-05-29T19:03:11.956226",
+                "score": 5,
+                "total": 10
+            }
         ]
     }
 }

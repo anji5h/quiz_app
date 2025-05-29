@@ -4,7 +4,6 @@ import random
 from typing import Optional, List, Dict
 from datetime import datetime
 import uuid
-import bcrypt
 from tkinter import messagebox
 from schemas import (
     QuizConfig,
@@ -152,7 +151,9 @@ class DataManager:
             result.root[username] = User(root={})
         if topic not in result.root[username].root:
             result.root[username].root[topic] = []
-        new_score = Score(timestamp=datetime.now().isoformat(), score=score, total=total)
+        new_score = Score(
+            timestamp=datetime.now().isoformat(), score=score, total=total
+        )
         result.root[username].root[topic].append(new_score)
         return self.save_json_file(self.scores_path, result.model_dump())
 
@@ -212,3 +213,19 @@ class DataManager:
             except Exception as e:
                 messagebox.showerror("Error", f"Error processing analytics: {str(e)}")
         return analytics
+
+    def get_user_scores(self, username: str) -> dict:
+        result_data = self.load_json_file(self.scores_path)
+        if not result_data:
+            return {}
+        try:
+            result = Result.model_validate(result_data)
+            user_scores = result.root.get(username, None)
+            if user_scores:
+                return user_scores.root
+            return {}
+        except Exception as e:
+            messagebox.showerror(
+                "Error", f"Error retrieving scores for {username}: {str(e)}"
+            )
+            return {}

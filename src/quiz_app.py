@@ -1,5 +1,4 @@
 import tkinter as tk
-
 import bcrypt
 from data_manager import DataManager
 from frames.auth_frame import AuthFrame

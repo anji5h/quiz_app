@@ -10,14 +10,12 @@ class ManageQuestionsFrame(tk.Frame):
         super().__init__(parent)
         self.app = app
         self.parent_frame = parent_frame
-        self.configure(bg="#f0f0f0")  # Light gray background for consistency
+        self.configure(bg="#f0f0f0")
         self.setup_ui()
 
     def setup_ui(self):
-        # Center the frame content
         self.pack(fill="both", expand=True)
 
-        # Main container frame with padding
         main_frame = tk.Frame(self, bg="#f0f0f0")
         main_frame.pack(expand=True)
 
@@ -30,13 +28,12 @@ class ManageQuestionsFrame(tk.Frame):
             fg="#333333",
         ).pack(pady=(20, 40))
 
-        # Buttons with distinct colors and centered layout
         tk.Button(
             main_frame,
             text="Add Question",
             command=self.show_add_question,
             font=("Arial", 12),
-            bg="#4CAF50",  # Green
+            bg="#4CAF50",
             fg="white",
             width=20,
             padx=10,
@@ -48,7 +45,7 @@ class ManageQuestionsFrame(tk.Frame):
             text="Delete Question",
             command=self.show_delete_question,
             font=("Arial", 12),
-            bg="#F44336",  # Red
+            bg="#F44336",
             fg="white",
             width=20,
             padx=10,
@@ -60,7 +57,7 @@ class ManageQuestionsFrame(tk.Frame):
             text="Back",
             command=self.back,
             font=("Arial", 12),
-            bg="#2196F3",  # Blue
+            bg="#2196F3",
             fg="white",
             width=20,
             padx=10,

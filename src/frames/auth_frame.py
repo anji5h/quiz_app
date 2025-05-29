@@ -7,14 +7,12 @@ class AuthFrame(tk.Frame):
     def __init__(self, parent, app):
         super().__init__(parent)
         self.app = app
-        self.configure(bg="#f0f0f0")  # Light gray background for a modern look
+        self.configure(bg="#f0f0f0")
         self.setup_ui()
 
     def setup_ui(self):
-        # Center the frame content
         self.pack(fill="both", expand=True)
 
-        # Main container frame with padding
         main_frame = tk.Frame(self, bg="#f0f0f0")
         main_frame.pack(expand=True)
 
