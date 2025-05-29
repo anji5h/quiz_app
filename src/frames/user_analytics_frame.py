@@ -113,7 +113,7 @@ class UserAnalyticsFrame(tk.Frame):
         ax.set_ylabel("Score (%)", fontsize=10)
         ax.set_xticks(range(len(timestamps)))
         ax.set_xticklabels(
-            [ts.strftime("%Y-%m-%d %H:%M") for ts in timestamps], rotation=45
+            [ts.strftime("%Y-%m-%d") for ts in timestamps],
         )
         ax.set_ylim(0, 100)
         ax.legend(title="Topics")
