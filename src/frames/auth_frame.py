@@ -1,25 +1,81 @@
 import tkinter as tk
 from tkinter import messagebox
 
-
 class AuthFrame(tk.Frame):
     """Frame for login and registration."""
 
     def __init__(self, parent, app):
         super().__init__(parent)
         self.app = app
+        self.configure(bg="#f0f0f0")  # Light gray background for a modern look
         self.setup_ui()
 
     def setup_ui(self):
-        tk.Label(self, text="Quiz Application", font=("Arial", 20)).pack(pady=20)
-        tk.Label(self, text="Username").pack()
-        self.username_entry = tk.Entry(self)
-        self.username_entry.pack(pady=5)
-        tk.Label(self, text="Password").pack()
-        self.password_entry = tk.Entry(self, show="*")
-        self.password_entry.pack(pady=5)
-        tk.Button(self, text="Login", command=self.login).pack(pady=10)
-        tk.Button(self, text="Register", command=self.register).pack(pady=5)
+        # Center the frame content
+        self.pack(fill="both", expand=True)
+
+        # Main container frame with padding
+        main_frame = tk.Frame(self, bg="#f0f0f0")
+        main_frame.pack(expand=True)
+
+        # Title
+        title_label = tk.Label(
+            main_frame,
+            text="Quiz Application",
+            font=("Arial", 24, "bold"),
+            bg="#f0f0f0",
+            fg="#333333",
+        )
+        title_label.grid(row=0, column=0, columnspan=2, pady=(20, 20), sticky="n")
+
+        # Username
+        username_label = tk.Label(
+            main_frame,
+            text="Username:",
+            font=("Arial", 12),
+            bg="#f0f0f0",
+            fg="#333333",
+            anchor="w",
+        )
+        username_label.grid(row=1, column=0, padx=(20, 0), pady=(5, 0), sticky="w")
+        self.username_entry = tk.Entry(main_frame, width=30, font=("Arial", 12))
+        self.username_entry.grid(row=2, column=0, padx=(20, 0), pady=(0, 10), sticky="w")
+
+        # Password
+        password_label = tk.Label(
+            main_frame,
+            text="Password:",
+            font=("Arial", 12),
+            bg="#f0f0f0",
+            fg="#333333",
+            anchor="w",
+        )
+        password_label.grid(row=3, column=0, padx=(20, 0), pady=(5, 0), sticky="w")
+        self.password_entry = tk.Entry(
+            main_frame, show="*", width=30, font=("Arial", 12)
+        )
+        self.password_entry.grid(row=4, column=0, padx=(20, 0), pady=(0, 10), sticky="w")
+
+        button_frame = tk.Frame(main_frame, bg="#f0f0f0")
+        button_frame.grid(row=5, column=0, columnspan=2, pady=20)
+        login_button = tk.Button(
+            button_frame,
+            text="Login",
+            command=self.login,
+            font=("Arial", 12),
+            padx=10,
+            pady=5,
+        )
+        login_button.pack(side="left", padx=10)
+        register_button = tk.Button(
+            button_frame,
+            text="Register",
+            command=self.register,
+            font=("Arial", 12),
+            padx=10,
+            pady=5,
+        )
+        register_button.pack(side="left", padx=10)
 
     def login(self):
         username = self.username_entry.get().strip()
