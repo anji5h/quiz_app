@@ -1,0 +1,12 @@
+{
+  "anjish": {
+    "username": "anjish",
+    "password": "$2b$12$7sLmAb/Uvjn7vdCcc403T.JdWm4DBoXZLLabRjKXqEBbtX.sJ9xNW",
+    "role": "USER"
+  },
+  "admin": {
+    "username": "admin",
+    "password": "$2b$12$99wPLpav31LVYNnzp5yf/.OXepIknmdu9UHdNGnYKnvbKgBTIsM2u",
+    "role": "ADMIN"
+  }
+}
