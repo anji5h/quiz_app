@@ -63,7 +63,7 @@ class DataManager:
             return None
 
     def load_questions(self, topic: str) -> Optional[List[Question]]:
-        path = os.path.join(self.data_dir, f"quiz_{topic}.json")
+        path = os.path.join(self.data_dir, f"{topic}.json")
         quiz_raw = self.load_json_file(path)
         if quiz_raw is None:
             return None
@@ -82,7 +82,7 @@ class DataManager:
             return None
 
     def save_question(self, topic: str, question: Question) -> Optional[str]:
-        path = os.path.join(self.data_dir, f"quiz_{topic}.json")
+        path = os.path.join(self.data_dir, f"{topic}.json")
         quiz_data = self.load_json_file(path)
         if quiz_data is None:
             return None
@@ -105,7 +105,7 @@ class DataManager:
             return None
 
     def delete_question(self, topic: str, question_id: str) -> bool:
-        path = os.path.join(self.data_dir, f"quiz_{topic}.json")
+        path = os.path.join(self.data_dir, f"{topic}.json")
         quiz_data = self.load_json_file(path)
         if quiz_data is None:
             return False
